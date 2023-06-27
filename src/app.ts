@@ -15,3 +15,12 @@ app.get('/', async (req: Request, res: Response) => {
 app.use(globalErrorHandler)
 
 export default app
+
+// "lint-staged": {
+//   "src/**/*.ts": "yarn lint-prettier"
+// },
+// "lint:check": "eslint --ignore-path .eslintignore --ext .js,.ts .",
+//     "lint:fix:": "eslint . --fix",
+//     "prettier:check": "prettier --ignore-path .gitignore --write \"**/*.+(js|ts|json)\"",
+//     "prettier-fix": "prettier --write .",
+//     "lint-prettier": "yarn lint:check && yarn prettier:check",
